@@ -1,0 +1,355 @@
+var relation = {};
+var checkstate = {};
+$(function () {
+    $("#module1").html("<label class='fixed-text control-label'>模块类型:</label>" + getModuleSelector(0));
+    $("#protocol1").html("<label class='fixed-text control-label'>协议类型:</label>" + getProtocol(0));
+    limitRelation(1);
+    $(document).on('change', ".module select", function () {
+        var parent = $(this).parent();
+        var id = parent.attr("id").replace('module', '');
+        var name = $(this).val();
+        if (name == 'WATERMETER') {
+            $("#protocolselect" + id).val("3");
+            $("#channel" + id).hide();
+        } else if (name == 'AMMETER') {
+            $("#protocolselect" + id).val("4");
+            $("#channel" + id).hide();
+        } else if (name == 'IO') {
+            $("#protocolselect" + id).val("2");
+            // 输入、输出不显示通道，默认按照规则自动生成
+            // $("#channel" + id).hide();
+            $("#channel" + id).show();
+        } else {
+            $("#protocolselect" + id).val("1");
+            $("#channel" + id).show();
+        }
+        // $("#protocolselect" + id).attr("disabled","disabled");
+    });
+/*    $(document).on('blur',"input[name='number']",function () {
+        var $self = $(this);
+        var id = $self.attr("id").replace("block", "");
+        var number = $("#block" + id).val();
+        var name = $("#select" + id).val();
+        if (name == 'IO') {
+            createAutoIOChannel(name, id, number);
+        }
+    });*/
+});
+
+function saveConfig() {
+    var clientId = $("#clientid").val();
+    var $cfg = $("fieldset");
+    var cnt = $cfg.length;
+    var paramsArr = [];
+    var str = checkClientValid(clientId);
+    if (str != "") {
+        alert(str);
+        return;
+    }
+    for (var i = 0; i < cnt; i++) {
+        var $onecfg = $cfg[i];
+        var $select = $("select", $onecfg);
+        var cfgName = $select[0].value;
+        var protocol = $select[1].value;
+        var $input = $("input", $onecfg);
+        var number = $input[0].value;
+        var address = $input[1].value;
+        if (checkstate[cfgName]) {
+            alert("请选择其他类型的模块");
+            checkstate = {};
+            return;
+        }
+        checkstate[cfgName] = true;
+        if (number == "" || address == "") {
+            alert("请输入数值");
+            checkstate = {};
+            return;
+        }
+        var channel = $input[2] && $($input[2]).val();
+        var realNumber = address.split(",").length;
+        if (parseInt(number) != realNumber) {
+            alert("对应模块数与模块地址个数不一致！");
+            checkstate = {};
+            return;
+        }
+        // console.log("模块类型：" + cfgName + ",协议：" + protocol + ", 数量：" + number + ",通道：" + channel + ",地址：" + address);
+        var paramObj = {
+            "name": cfgName,
+            "protocol": protocol,
+            "number": number,
+            "address": address,
+            "channel": channel
+        };
+        paramsArr.push(paramObj);
+    }
+    var obj = {
+        "clientid": clientId,
+        "items": paramsArr
+    };
+    // 输入数据有效性校验
+    str = checkValueValid(paramsArr);
+    if (str == "") {
+        $.ajax({
+            url: '/config/save',
+            method: 'post',
+            contentType: "application/json",
+            data: JSON.stringify(obj),
+            success: function (response) {
+                switch (response) {
+                    case "002":
+                        alert("编号已存在");
+                        break;
+                    case "1":
+                        alert("保存成功");
+                        document.getElementById("downloadLink").click();
+                        break;
+                    default:
+                        alert("保存失败");
+                        break;
+                }
+            }
+        });
+    } else {
+        alert(str);
+    }
+    checkstate = {};
+}
+
+function checkClientValid(clientId) {
+    var str = "";
+    // 针对客户端编码进行校验
+    if (!/^C\d{2}[1-9A-Ca-c][0-9A-Fa-f]{4}$/.test(clientId.trim())) {
+        str = "请输入符合规范的客户端编码(长度为8位)，C+两位年号+一位十六进制表示的月份+四位流水号";
+    }
+    return str;
+}
+
+function checkValueValid(paramsArr) {
+    var str = "";
+    var addressArr = [];
+    for (var i = 0; i < paramsArr.length; i++) {
+        var obj = paramsArr[i];
+        var name = obj['name'];
+        var channel = obj['channel'];
+        var addr = obj['address'];
+        str = isValidChannel(name, channel);
+        if (str != "") {
+            return str;
+        }
+        addressArr.push(addr);
+    }
+    var address = addressArr.join(",").split(",");
+    // str = isRepeat(address);
+    return str;
+}
+
+// 判断是否存在重复值
+function isRepeat(arr) {
+    var str = "";
+    var hash = {};
+    for (var i in arr) {
+        if (hash[arr[i]]) {
+            str = "地址:" + arr[i] + "  数值重复，请重新输入";
+            break;
+        }
+        hash[arr[i]] = true;
+    }
+    return str;
+}
+
+// // 判断通道数是否合法
+// /*
+//     INPUT/OUTPUT 在0~65535之间
+//  */
+// function isValidChannel(name, channel, addr) {
+//     var str = "";
+//     // 输入量与输出量
+//     if (name == 'ADC' || name == 'IO') {
+//         var channelArr = channel.split(",");
+//         var addrArr = addr.split(",");
+//         // 判断通道数内是否存在重复的情况
+//         str = isRepeat(channelArr);
+//         if (str == "") {
+//             for (var i in channelArr) {
+//                 if (/[0-9A-Fa-f]+/.test(channelArr[i]) && 0 <= parseInt(channelArr[i], 16) <= 65535) {
+//
+//                 } else {
+//                     str = "数值应当在0~65535之间";
+//                     break;
+//                 }
+//             }
+//         }
+//         if (channelArr.length != addrArr.length) {
+//             str = "输入通道数与地址数数量不一致";
+//         }
+//     } else if (name == 'WATERMETER' || name == 'AMMETER') {
+//
+//     } else {
+//         if (0 <= channel <= 15) {
+//
+//         } else {
+//             str = "通道数有效值应该在0~15之间";
+//         }
+//     }
+//     return str;
+// }
+
+// 判断通道数是否合法
+/*
+    INPUT  1~12
+    OUTPUT 1~14
+    根据最新硬件实现方案，输入输出通道默认从低到高取N个，从1开始
+ */
+function isValidChannel(name, channel) {
+    var str = "";
+    if(!isExcluded(name)) {
+        if (0 <= channel && channel<= 15) {
+
+        } else {
+            str = "通道数有效值应该在0~15之间";
+        }
+    }
+    return str;
+}
+
+// 是否需要对通道数进行规则校验
+function isExcluded(name){
+    var arr = ['WATERMETER', 'AMMETER'];
+    if(arr.indexOf(name) == -1){
+        return false;
+    }else{
+        return true;
+    }
+}
+
+function isEmpty(str) {
+    return str.trim() === "";
+}
+
+String.prototype.trim = function () {
+    return this.replace(/(^\s*)|(\s*$)/g, "");
+}
+
+function getTotal() {
+    var total = 0;
+    $.ajax({
+        url: '/config/module/total',
+        method: 'get',
+        async: false,
+        success: function (data) {
+            total = data;
+        }
+    });
+    return total;
+}
+
+function addModule() {
+    var currentNum = $("fieldset").length;
+    var protocolStr = getProtocol(currentNum);
+    var moduleStr = getModuleSelector(currentNum);
+    if(currentNum == getTotal()){
+        return;
+    }
+    var newNum = currentNum + 1;
+    var html = "<fieldset class=\"box form-horizontal\" id=\"panel" + newNum + "\"> \
+                    <div class='module form-line' id=\"module" + newNum + "\" class='module'> \
+                <label class='fixed-text control-label'>模块类型:</label>"
+        + moduleStr + "</div> \
+            <div class='protocol form-line'> \
+            <label class='fixed-text control-label'>协议类型:</label>"
+        + protocolStr + "</div><div class='form-line'> \
+                <label class='fixed-text control-label'>对应模块数:</label> \
+                <input class=\"form-inline-control\" name=\"number\" id='block\" + newNum + \"'/> \
+            </div> \
+            <div class='form-line'> \
+                <label class='fixed-text control-label'>模块地址:</label> \
+                <input class=\"form-inline-control\" name=\"address\" placeholder=\"十进制数，以逗号分开\"/> \
+            </div> \
+            <div class='form-line' id='channel" + newNum + "'> \
+                <label class='fixed-text control-label'>对应模块通道:</label> \
+                <input class=\"form-inline-control\" name=\"channel\" id='channelInput" + newNum + "'/> \
+            </div> \
+            </fieldset>";
+    $("#panel" + currentNum).after(html);
+    limitRelation(newNum);
+}
+
+function createAutoIOChannel(keyword, newNum, size) {
+    if(keyword == 'IO'){
+        var channelStr = getChannelVal(size);
+        $("#channelInput" + newNum).val(channelStr);
+    }
+}
+
+function getChannelVal(size) {
+    var num = [];
+    for(var i=0;i<size;i++){
+        num.push(i + 1);
+    }
+    return num.join(",");
+}
+
+function limitRelation(newNum) {
+    // 获取模块属性
+    var keyword = $("#select" + newNum).val();
+    $("#protocolselect" + newNum).val(relation[keyword]).attr("disabled", "disabled");
+    // if(isExcluded(keyword)) {
+    //     $("#channel" + newNum).hide();
+    // }
+    // var size = $("#block" + newNum).val();
+    // createAutoIOChannel(keyword, newNum, size);
+}
+
+function getModuleSelector(currentNum) {
+    var str = "";
+    $.ajax({
+        url: '/config/module',
+        method: 'get',
+        async: false,
+        contentType: "application/json",
+        data: null,
+        success: function (response) {
+            str = "<select class='select-control' id='select" + (currentNum + 1) + "'>";
+            for (var i = 0; i < response.length; i++) {
+                var module = response[i];
+                var keyword = module['keyword'];
+                relation[keyword] = module['protocol'];
+                if (currentNum == i) {
+                    str += "<option value='" + keyword + "' selected='true'>" + module['name'] + "</option>";
+                } else {
+                    str += "<option value='" + keyword + "'>" + module['name'] + "</option>";
+                }
+            }
+            str += "</select>";
+        }
+    });
+    return str;
+}
+
+function getProtocol(currentNum) {
+    var str = "";
+    var num = (currentNum + 1);
+    $.ajax({
+        url: '/config/protocol',
+        method: 'get',
+        async: false,
+        contentType: "application/json",
+        data: null,
+        success: function (response) {
+            str = "<select class='select-control' id='protocolselect" + num + "'>";
+            for (var i = 0; i < response.length; i++) {
+                var module = response[i];
+                str += "<option value=" + module['value'] + ">" + module['text'] + "</option>";
+            }
+            str += "</select>";
+        }
+    });
+    return str;
+}
+
+function deleteModule() {
+    var maxNum = $("fieldset").length;
+    if (maxNum > 1) {
+        $("#panel" + maxNum).remove();
+    }
+}

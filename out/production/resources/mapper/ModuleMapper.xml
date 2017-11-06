@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.mqtt.demo.mapper.ModuleMapper">
+    <resultMap id="moduleMap" type="com.mqtt.demo.entity.Module"></resultMap>
+
+    <select id="queryAllModules" resultMap="moduleMap">
+        select id,name,keyword, protocol from module
+    </select>
+
+    <select id="checkModule" resultType="java.lang.Integer">
+        select count(1) from module where name=#{name} or keyword=#{keyword}
+    </select>
+
+    <select id="queryModuleTotal" resultType="java.lang.Integer">
+        select count(1) from module
+    </select>
+    
+    <select id="queryModuleParameters" resultMap="moduleMap">
+        select name,lowthreshold,highthreshold,delta,normalsample,abnormalsample from module where name like concat(concat('%',#{name}),'%')
+    </select>
+
+    <select id="queryAllModuleParameters" resultMap="moduleMap">
+        select name,lowthreshold,highthreshold,delta,normalsample,abnormalsample from module
+    </select>
+
+    <select id="queryModuleParams" resultMap="moduleMap">
+        select `index` name,highthreshold,lowthreshold,delta,normalsample,abnormalsample from module a
+        join module_config b on a.keyword = b.keyword where b.clientid=#{clientid}
+    </select>
+
+    <select id="queryModuleRelation" resultMap="moduleMap">
+        select a.name,a.keyword,b.protocolid id from module a
+        left join protocol_relationmap b on b.keyword = a.keyword;
+    </select>
+
+    <update id="updateModuleInfo">
+        update module set lowthreshold=#{lowthreshold}, highthreshold=#{highthreshold}, delta=#{delta}, normalsample=#{normalsample}, abnormalsample=#{abnormalsample} where name=#{name}
+    </update>
+    
+    <insert id="insertNewModule" parameterType="hashmap">
+        insert into module set `name`=#{name}, keyword=#{keyword}
+    </insert>
+    
+    <delete id="deleteModule">
+        delete from module where id=#{id}
+    </delete>
+</mapper>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.demo.mapper.JobMapper">
+    <resultMap id="jobMap" type="com.demo.entity.JobAndTrigger"></resultMap>
+    <select id="getJobDetails" parameterType="java.util.Map" resultMap="jobMap">
+        select `name`,schedule,content, triggerName from task_scheduler order by ${orderColumn} ${dir}
+    </select>
+    
+    <insert id="insertJob">
+        insert into task_scheduler (`name`,schedule, content, triggerName) values(#{name}, #{schedule}, #{content}, #{triggerName})
+    </insert>
+    
+    <select id="getExistence" resultType="java.lang.Integer">
+        select count(1) from task_scheduler where `name`=#{name}
+    </select>
+    
+    <delete id="deleteJob">
+        delete from task_scheduler where triggerName=#{name}
+    </delete>
+</mapper>

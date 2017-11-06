@@ -1,0 +1,44 @@
+<section class="content-header">
+    <h3>
+        模块协议关系管理
+        <small>通过这个页面，可以新增、查看模块协议关联关系</small>
+    </h3>
+</section>
+<section class="content container-fluid">
+    <input type="button" class="btn btn-default" data-toggle="modal" data-target="#newRelationPanel" value="新增"/>
+    <table id="relation-table" class="table-border" cellspacing="0"></table>
+</section>
+<div class="modal fade" id="newRelationPanel" tabindex="-1" role="dialog" aria-labelledby="newRelationPanel"
+     aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title"><span></span>模块协议对应关系窗口</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal" id="newRelationForm" novalidate="novalidate">
+                    <div class="form-group">
+                        <div class="row form-line">
+                            <label class="col-md-3 control-label">模块名称</label>
+                            <select class="col-md-7 select-control" id="module-name"/>
+                            <label class="col-md-2"></label>
+                        </div>
+                        <div class="row form-line">
+                            <label class="col-md-3 control-label">协议名称</label>
+                            <select class="col-md-7 select-control" id="protocol-text"/>
+                            <label class="col-md-2"></label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default pull-left" data-dismiss="modal">取消</button>
+                <button type="button" class="btn btn-primary" id="submitRelation">确定</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="/js/relation.js"></script>

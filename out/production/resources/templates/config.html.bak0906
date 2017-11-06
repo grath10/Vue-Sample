@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8"/>
+    <title>中转板配置</title>
+    <link rel="stylesheet" th:href="@{/css/bootstrap/bootstrap.min.css}"/>
+    <link rel="stylesheet" th:href="@{/css/main.css}"/>
+</head>
+<body>
+<!--<p th:text="${name}"/>-->
+<div class="inline" style="margin: 10px;">
+    <label class="control-label">客户端编号:</label>
+    <input id="clientid" class="form-inline-control" placeholder="以C开头,长度为8位,例如:C17A0001" style="width:300px"/>
+</div>
+<fieldset class="box form-horizontal" id="panel1">
+    <div id="module1" class="form-line module"></div>
+    <div id="protocol1" class="form-line protocol"></div>
+    <div class="form-line">
+        <label class="fixed-text control-label">对应模块数:</label>
+        <input class="form-inline-control" name="number" id="block1" />
+    </div>
+    <div class="form-line">
+        <label class="fixed-text control-label">模块地址:</label>
+        <input class="form-inline-control" name="address" placeholder="十进制数，以逗号分开"/>
+    </div>
+    <div class="form-line" id="channel1">
+        <label class="fixed-text control-label">对应模块通道:</label>
+        <input class="form-inline-control" name="channel" id="channelInput1" />
+    </div>
+</fieldset>
+<input type="button" class="btn btn-default" style="margin-left: 10px;" value="增加功能模块" onclick="addModule()"/>
+<input type="button" class="btn btn-default" value="删除功能模块" onclick="deleteModule()"/>
+<input type="button" class="btn btn-default" value="生成配置文件" onclick="saveConfig()"/>
+<a href="/config/download" id="downloadLink" style="display: none">下载配置</a>
+</body>
+<script type="text/javascript" src="/js/thirdparty/jquery-2.2.3.min.js"></script>
+<script type="text/javascript" src="/js/thirdparty/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/config.js"></script>
+</html>

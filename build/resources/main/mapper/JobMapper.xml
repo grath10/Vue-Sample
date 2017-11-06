@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.mqtt.demo.mapper.JobMapper">
+    <resultMap id="jobMap" type="com.mqtt.demo.entity.JobAndTrigger"></resultMap>
+    <select id="getJobDetails" resultMap="jobMap">
+        select `name`,schedule,content from task_scheduler
+    </select>
+    
+    <insert id="insertJob">
+        insert into task_scheduler (`name`,schedule, content) values(#{name}, #{schedule}, #{content})
+    </insert>
+    
+    <select id="getExistence" resultType="java.lang.Integer">
+        select count(1) from task_scheduler where `name`=#{name}
+    </select>
+</mapper>
