@@ -35,3 +35,5 @@ gradle
 /gradlew
 /gradlew.bat
 /gradle.properties
+out/production/resources/
+src/test/

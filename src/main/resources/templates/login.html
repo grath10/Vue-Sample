@@ -1,43 +1,45 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>综合平台登录</title>
-    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport" />
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>测试平台登录</title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport"/>
     <link rel="stylesheet" type="text/css" href="/css/bootstrap/bootstrap.min.css"/>
-    <link rel="stylesheet" type="text/css" href="/css/AdminLTE.min.css" />
-    <link rel="stylesheet" type="text/css" href="/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="/css/AdminLTE.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/main.css"/>
 </head>
 <body class="login-page">
 <div class="login-box pull-right" style="position:absolute; top:10%;right:40%">
     <div class="iconmelon" align="center" style="padding-bottom: 0px;font-size:x-large;">
-        <br /><br />
+        <br/><br/>
     </div>
-    <!--<div th:if="${param.error}" class="alert alert-danger text-center">-->
-        <!--用户名或密码错-->
-    <!--</div>-->
-    <div th:if="${param.error}" th:text="${session.SPRING_SECURITY_LAST_EXCEPTION.message}" class="alert alert-danger text-center">
+    <div th:if="${param.error}" th:text="${session.SPRING_SECURITY_LAST_EXCEPTION.message}"
+         class="alert alert-danger text-center">
     </div>
     <div th:if="${param.logout}" class="alert alert-success text-center">
         已注销成功
     </div>
-    <div class="login-box-body" style="border:1px solid #c4e3f3; -moz-box-shadow:3px 3px 20px #999999;-webkit-box-shadow:3px 3px 20px #999999; box-shadow:3px 3px 20px #999999;">
-        <br />
+    <div class="login-box-body"
+         style="border:1px solid #c4e3f3; -moz-box-shadow:3px 3px 20px #999999;-webkit-box-shadow:3px 3px 20px #999999; box-shadow:3px 3px 20px #999999;">
+        <br/>
         <form id="loginForm" th:action="@{/login}" method="post" novalidate="novalidate">
             <div class="form-group has-feedback">
                 <span class="glyphicon glyphicon-user form-control-feedback"></span>
-                <input id="username" type="text" class="form-control" name="username" required="" title="请输入用户名" placeholder="用户名" aria-required="true" />
+                <input id="username" type="text" class="form-control" name="username" required="" title="请输入用户名"
+                       placeholder="用户名" aria-required="true"/>
             </div>
             <div class="form-group has-feedback">
                 <span class="glyphicon glyphicon-lock form-control-feedback"></span>
-                <input id="password" type="password" class="form-control" name="password" required="" title="请输入密码" placeholder="密码" aria-required="true" />
+                <input id="password" type="password" class="form-control" name="password" required="" title="请输入密码"
+                       placeholder="密码" aria-required="true"/>
             </div>
             <div class="row form-group">
                 <div class="col-md-5">
-                    <input id="validateWord" type="text" class="form-control col-md-6" name="imagecode" title="请输入验证码" required="" placeholder="验证码" aria-required="true" />
+                    <input id="validateWord" type="text" class="form-control col-md-6" name="imagecode" title="请输入验证码"
+                           required="" placeholder="验证码" aria-required="true"/>
                 </div>
-                <img class="col-md-4" src="/imagecode" id="img-code" />
+                <img class="col-md-4" src="/imagecode" id="img-code"/>
                 <span class="col-md-3" style="margin-top: 6px; cursor: hand">
                     <a href="#" id="btn-imagecode-refresh">换一换</a>
                 </span>
@@ -73,30 +75,12 @@
 <script type="text/javascript" src="/js/plugins/jquery-validation/additional-methods.min.js"></script>
 <script type="text/javascript" src="/js/plugins/jquery-validation/localization/messages_zh.min.js"></script>
 <script>
-    $(function(){
+    $(function () {
         $("#btn-imagecode-refresh").click(function () {
             var d = new Date();
             $("#img-code").attr("src", "\/imagecode" + "?" + d.getTime());
         });
         $("#loginForm").validate();
-        /*$("#btnLoginForm").click(submitForm);
-        
-        function submitForm() {
-            $.ajax({
-                url: '/login',
-                type: 'POST',
-                success: function (repsonse) {
-                    var isSuccess = repsonse.success;
-                    if(!isSuccess){
-                        $("#msgLine").css("display", "block");
-                        $("#showMsg").html(response.message);
-                        return;
-                    }
-                    $("#msgLine").css("display", "none");
-                    window.location.href = '/';
-                }
-            })
-        }*/
     });
 </script>
 </html>

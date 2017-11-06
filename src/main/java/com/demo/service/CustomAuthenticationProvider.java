@@ -19,7 +19,7 @@ import java.util.Collection;
 
 @Component
 public class CustomAuthenticationProvider implements AuthenticationProvider {
-    protected final Logger logger = LoggerFactory.getLogger(getClass());
+    private final Logger logger = LoggerFactory.getLogger(getClass());
     @Autowired
     private CustomUserDetailsService userDetailsService;
     @Autowired
@@ -27,36 +27,31 @@ public class CustomAuthenticationProvider implements AuthenticationProvider {
 
     @Override
     public Authentication authenticate(Authentication authentication) throws AuthenticationException {
-        CustomWebAuthenticationDetails authDetails = (CustomWebAuthenticationDetails)authentication.getDetails();
-        String imageCode = authDetails.getImageCode();
-        String session_imageCode = authDetails.getSession_imageCode();
-        long session_imageTime = authDetails.getSession_imageTime();
-        if(imageCode == null || session_imageCode == null){
-//            throw new AuthenticationServiceException("验证码错误");
-            throw new AuthenticationServiceException(messageSource.getMessage("wrongVerifyCode",null, null));
-        }
-        if(!imageCode.equalsIgnoreCase(session_imageCode)){
-//            throw new AuthenticationServiceException("验证码错误");
-            throw new AuthenticationServiceException(messageSource.getMessage("wrongVerifyCode",null, null));
-        }else {
-            long now = System.currentTimeMillis();
-            if((now - session_imageTime)/1000 > 60){
-//                throw new AuthenticationServiceException("验证码已超时");
-                throw new AuthenticationServiceException(messageSource.getMessage("timeoutVerifyCode",null, null));
-            }
-        }
         String userName = authentication.getName();
         String password = (String) authentication.getCredentials();
         MyUserDetails details = (MyUserDetails) userDetailsService.loadUserByUsername(userName);
         logger.info("输入密码/实际密码：" + password + "/" + details.getPassword());
         if (details == null) {
-//            throw new BadCredentialsException("用户未找到");
             throw new BadCredentialsException(messageSource.getMessage("userNoutFound",null, null));
         }
         // 密码匹配验证
         if (!password.equals(details.getPassword())) {
-//            throw new BadCredentialsException("密码错误");
             throw new BadCredentialsException(messageSource.getMessage("wrongPassword",null, null));
+        }
+        CustomWebAuthenticationDetails authDetails = (CustomWebAuthenticationDetails)authentication.getDetails();
+        String imageCode = authDetails.getImageCode();
+        String session_imageCode = authDetails.getSession_imageCode();
+        long session_imageTime = authDetails.getSession_imageTime();
+        if(imageCode == null || session_imageCode == null){
+            throw new AuthenticationServiceException(messageSource.getMessage("wrongVerifyCode",null, null));
+        }
+        if(!imageCode.equalsIgnoreCase(session_imageCode)){
+            throw new AuthenticationServiceException(messageSource.getMessage("wrongVerifyCode",null, null));
+        }else {
+            long now = System.currentTimeMillis();
+            if((now - session_imageTime)/1000 > 60){
+                throw new AuthenticationServiceException(messageSource.getMessage("timeoutVerifyCode",null, null));
+            }
         }
         Collection<? extends GrantedAuthority> authorities = details.getAuthorities();
         return new UsernamePasswordAuthenticationToken(details, password, authorities);
