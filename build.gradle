@@ -39,4 +39,5 @@ dependencies {
     compile('commons-io:commons-io:2.4')
     compile('org.springframework.boot:spring-boot-devtools')
     compile('org.springframework:spring-context-support')
+    compile('org.json:json:20160810')
 }
