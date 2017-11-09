@@ -8,6 +8,24 @@
     <link rel="stylesheet" type="text/css" href="/css/bootstrap/bootstrap.min.css"/>
     <link rel="stylesheet" type="text/css" href="/css/AdminLTE.min.css"/>
     <link rel="stylesheet" type="text/css" href="/css/main.css"/>
+    <style>
+        #captcha {
+            width: 300px;
+            margin-left: 15px;
+            display: inline-block;
+        }
+        .shown {
+            display: block;
+        }
+        #notice {
+            color: red;
+        }
+        #wait {
+            text-align: left;
+            color: #666;
+            margin: 0;
+        }
+    </style>
 </head>
 <body class="login-page">
 <div class="login-box pull-right" style="position:absolute; top:10%;right:40%">
@@ -35,15 +53,11 @@
                        placeholder="密码" aria-required="true"/>
             </div>
             <div class="row form-group">
-                <div class="col-md-5">
-                    <input id="validateWord" type="text" class="form-control col-md-6" name="imagecode" title="请输入验证码"
-                           required="" placeholder="验证码" aria-required="true"/>
+                <div id="captcha">
+                    <p id="wait" class="shown">正在加载验证码......</p>
                 </div>
-                <img class="col-md-4" src="/imagecode" id="img-code"/>
-                <span class="col-md-3" style="margin-top: 6px; cursor: hand">
-                    <a href="#" id="btn-imagecode-refresh">换一换</a>
-                </span>
             </div>
+            <p id="notice" style="display: none">请先完成验证</p>
 
             <div class="row form-group">
                 <div class="col-md-12">
@@ -74,13 +88,6 @@
 <script type="text/javascript" src="/js/plugins/jquery-validation/jquery.validate.min.js"></script>
 <script type="text/javascript" src="/js/plugins/jquery-validation/additional-methods.min.js"></script>
 <script type="text/javascript" src="/js/plugins/jquery-validation/localization/messages_zh.min.js"></script>
-<script>
-    $(function () {
-        $("#btn-imagecode-refresh").click(function () {
-            var d = new Date();
-            $("#img-code").attr("src", "\/imagecode" + "?" + d.getTime());
-        });
-        $("#loginForm").validate();
-    });
-</script>
+<script type="text/javascript" src="/js/gt.js"></script>
+<script type="text/javascript" src="/js/login.js"></script>
 </html>

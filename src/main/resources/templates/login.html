@@ -8,24 +8,6 @@
     <link rel="stylesheet" type="text/css" href="/css/bootstrap/bootstrap.min.css"/>
     <link rel="stylesheet" type="text/css" href="/css/AdminLTE.min.css"/>
     <link rel="stylesheet" type="text/css" href="/css/main.css"/>
-    <style>
-        #captcha {
-            width: 300px;
-            margin-left: 15px;
-            display: inline-block;
-        }
-        .shown {
-            display: block;
-        }
-        #notice {
-            color: red;
-        }
-        #wait {
-            text-align: left;
-            color: #666;
-            margin: 0;
-        }
-    </style>
 </head>
 <body class="login-page">
 <div class="login-box pull-right" style="position:absolute; top:10%;right:40%">
@@ -53,11 +35,10 @@
                        placeholder="密码" aria-required="true"/>
             </div>
             <div class="row form-group">
-                <div id="captcha">
-                    <p id="wait" class="shown">正在加载验证码......</p>
-                </div>
+                <img src="/imagecode" id="img-code" style="padding-left: 15px"/>
+                <select id="hiddenPosition" style="display: none"></select>
+                <input style="display: none;padding-left: 15px" id="position" type="text" name="position"/>
             </div>
-            <p id="notice" style="display: none">请先完成验证</p>
 
             <div class="row form-group">
                 <div class="col-md-12">
@@ -88,6 +69,15 @@
 <script type="text/javascript" src="/js/plugins/jquery-validation/jquery.validate.min.js"></script>
 <script type="text/javascript" src="/js/plugins/jquery-validation/additional-methods.min.js"></script>
 <script type="text/javascript" src="/js/plugins/jquery-validation/localization/messages_zh.min.js"></script>
-<script type="text/javascript" src="/js/gt.js"></script>
-<script type="text/javascript" src="/js/login.js"></script>
+<!-- 点选文字校验码所需引入js文件 -->
+<script type="text/javascript" src="/js/loginText.js"></script>
+<!--<script>
+    $(function () {
+        $("#btn-imagecode-refresh").click(function () {
+            var d = new Date();
+            $("#img-code").attr("src", "\/imagecode" + "?" + d.getTime());
+        });
+        $("#loginForm").validate();
+    });
+</script>-->
 </html>
