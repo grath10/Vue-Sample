@@ -2,22 +2,22 @@ package com.demo.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class RouteController {
-    @RequestMapping(value = {"/","home"})
+    /*@RequestMapping(value = {"/","home"})
+    @ResponseBody
     public String home(){
         return "home";
-    }
+    }*/
 
-    @RequestMapping("index")
-    public String index() {return "index";}
+/*    @RequestMapping("index")
+    public String index() {return "index";}*/
 
-    @GetMapping("login")
+    /*@RequestMapping(value = "login", method = RequestMethod.POST)
     public String login(){
-        return "login";
-    }
+        return "";
+    }*/
 
     @GetMapping("rule")
     public String rule(){
