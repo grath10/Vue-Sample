@@ -1,0 +1,1616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/demo/service/TextAuthenticationProvider.java" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9947e6a7-9972-4afc-8aa5-ec5bb9bbadff" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/PlatformDebug$Application__1_.coverage" NAME="Application (1) Coverage Results" MODIFIED="1501640133939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mqtt.demo.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Vue-seven" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Application.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="27" column="31" lean-forward="false" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="JavaScript File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>adjustComment</find>
+      <find>dropdown-toggle</find>
+      <find>dropdown</find>
+      <find>checkValueValid</find>
+      <find>insertChannelDesc</find>
+      <find>createOutputRowLine</find>
+      <find>insertChannel</find>
+      <find>createRowLine</find>
+      <find>iochannel</find>
+      <find>displayModuleType</find>
+      <find>sh</find>
+      <find>getStateFromDB</find>
+      <find>select</find>
+      <find>drawBitPic</find>
+      <find>drawOutputChannel</find>
+      <find>module</find>
+      <find>getModuleSelect</find>
+      <find>newNum</find>
+      <find>limit</find>
+      <find>limitRelation</find>
+      <find>isValidChannel</find>
+      <find>panel</find>
+      <find>pickOutputControl</find>
+      <find>getVersion</find>
+      <find>graph</find>
+      <find>getBarChart</find>
+      <find>getExistence</find>
+      <find>loadDeviceInfo</find>
+      <find>getL</find>
+      <find>ini</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>control-label</replace>
+      <replace>obj</replace>
+      <replace>//</replace>
+      <replace>name</replace>
+      <replace>?&quot;</replace>
+      <replace>min-height: 300px;</replace>
+      <replace>createModule</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\huaju\IdeaProjects\PlatformDebug\src\main\resources\static\js</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="myGradleHomes">
+      <map>
+        <entry key="$PROJECT_DIR$" value="D:\Program Files\gradle-3.3" />
+      </map>
+    </option>
+    <option name="myGradleVersions">
+      <map>
+        <entry key="$PROJECT_DIR$" value="3.3" />
+      </map>
+    </option>
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="Vue-seven" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="Vue-seven" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="availableTasks">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by root project 'Vue-seven'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of root project 'Vue-seven'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in root project 'Vue-seven'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'Vue-seven'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Gradle wrapper files. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="wrapper" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of root project 'Vue-seven'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from root project 'Vue-seven'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Initializes a new Gradle build. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="init" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependency management declared in root project 'Vue-seven'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencyManagement" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Repackage existing JAR and WAR archives so that they can be executed from the command line using 'java -jar'" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="bootRepackage" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Run the project with support for auto-detecting main class and reloading static resources" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="bootRun" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in root project 'Vue-seven'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in root project 'Vue-seven'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="findMainClass" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of root project 'Vue-seven'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="3021770829413" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="2979962212" />
+        <entry key="$PROJECT_DIR$/settings.gradle" value="422940565" />
+      </map>
+    </option>
+    <option name="projectBuildClasspath">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <ExternalProjectBuildClasspathPojo>
+              <option name="modulesBuildClasspath">
+                <map>
+                  <entry key="$PROJECT_DIR$">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/1.5.6.RELEASE/86e765c58b4f26125714d466f1d0e0ff12b1ff76/spring-boot-gradle-plugin-1.5.6.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/1.5.6.RELEASE/c072438c3be7f48f1ecb595fe73d6140bbe8d1ae/spring-boot-gradle-plugin-1.5.6.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/1.5.6.RELEASE/5c2596d77f3b1f87c921bb568f0203b54dcbd8b0/spring-boot-loader-tools-1.5.6.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/1.5.6.RELEASE/9cd2349e3be4af2a59210b37e7ee1fdab043644/spring-boot-loader-tools-1.5.6.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/1.0.3.RELEASE/7bb9ab86474b9ff2e7aa8ea3609878a1750e3f90/dependency-management-plugin-1.0.3.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/1.0.3.RELEASE/c7fc988680e19cef9bf91de0c39b891e4c8dca2d/dependency-management-plugin-1.0.3.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.10.RELEASE/74cacfe24c0f88a4577990fb24c9fdf4a73f443c/spring-core-4.3.10.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.10.RELEASE/db1462df62dbedad7244da30ec471390660271c0/spring-core-4.3.10.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/ecf26c7507d67782a3bbd148d170b31dfad001aa/commons-logging-1.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar" />
+                          </list>
+                        </option>
+                        <option name="path" value="$PROJECT_DIR$" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="name" value="Vue-seven" />
+              <option name="projectBuildClasspath">
+                <list>
+                  <option value="D:/Program Files/gradle-3.3/src/announce" />
+                  <option value="D:/Program Files/gradle-3.3/src/antlr" />
+                  <option value="D:/Program Files/gradle-3.3/src/base-services" />
+                  <option value="D:/Program Files/gradle-3.3/src/base-services-groovy" />
+                  <option value="D:/Program Files/gradle-3.3/src/build-cache-http" />
+                  <option value="D:/Program Files/gradle-3.3/src/build-comparison" />
+                  <option value="D:/Program Files/gradle-3.3/src/build-init" />
+                  <option value="D:/Program Files/gradle-3.3/src/cli" />
+                  <option value="D:/Program Files/gradle-3.3/src/code-quality" />
+                  <option value="D:/Program Files/gradle-3.3/src/composite-builds" />
+                  <option value="D:/Program Files/gradle-3.3/src/core" />
+                  <option value="D:/Program Files/gradle-3.3/src/dependency-management" />
+                  <option value="D:/Program Files/gradle-3.3/src/diagnostics" />
+                  <option value="D:/Program Files/gradle-3.3/src/ear" />
+                  <option value="D:/Program Files/gradle-3.3/src/ide" />
+                  <option value="D:/Program Files/gradle-3.3/src/ide-native" />
+                  <option value="D:/Program Files/gradle-3.3/src/ide-play" />
+                  <option value="D:/Program Files/gradle-3.3/src/installation-beacon" />
+                  <option value="D:/Program Files/gradle-3.3/src/internal-android-performance-testing" />
+                  <option value="D:/Program Files/gradle-3.3/src/internal-integ-testing" />
+                  <option value="D:/Program Files/gradle-3.3/src/internal-performance-testing" />
+                  <option value="D:/Program Files/gradle-3.3/src/internal-testing" />
+                  <option value="D:/Program Files/gradle-3.3/src/ivy" />
+                  <option value="D:/Program Files/gradle-3.3/src/jacoco" />
+                  <option value="D:/Program Files/gradle-3.3/src/javascript" />
+                  <option value="D:/Program Files/gradle-3.3/src/jetty" />
+                  <option value="D:/Program Files/gradle-3.3/src/jvm-services" />
+                  <option value="D:/Program Files/gradle-3.3/src/language-groovy" />
+                  <option value="D:/Program Files/gradle-3.3/src/language-java" />
+                  <option value="D:/Program Files/gradle-3.3/src/language-jvm" />
+                  <option value="D:/Program Files/gradle-3.3/src/language-native" />
+                  <option value="D:/Program Files/gradle-3.3/src/language-scala" />
+                  <option value="D:/Program Files/gradle-3.3/src/launcher" />
+                  <option value="D:/Program Files/gradle-3.3/src/logging" />
+                  <option value="D:/Program Files/gradle-3.3/src/maven" />
+                  <option value="D:/Program Files/gradle-3.3/src/messaging" />
+                  <option value="D:/Program Files/gradle-3.3/src/model-core" />
+                  <option value="D:/Program Files/gradle-3.3/src/model-groovy" />
+                  <option value="D:/Program Files/gradle-3.3/src/native" />
+                  <option value="D:/Program Files/gradle-3.3/src/open-api" />
+                  <option value="D:/Program Files/gradle-3.3/src/osgi" />
+                  <option value="D:/Program Files/gradle-3.3/src/platform-base" />
+                  <option value="D:/Program Files/gradle-3.3/src/platform-jvm" />
+                  <option value="D:/Program Files/gradle-3.3/src/platform-native" />
+                  <option value="D:/Program Files/gradle-3.3/src/platform-play" />
+                  <option value="D:/Program Files/gradle-3.3/src/plugin-development" />
+                  <option value="D:/Program Files/gradle-3.3/src/plugin-use" />
+                  <option value="D:/Program Files/gradle-3.3/src/plugins" />
+                  <option value="D:/Program Files/gradle-3.3/src/process-services" />
+                  <option value="D:/Program Files/gradle-3.3/src/publish" />
+                  <option value="D:/Program Files/gradle-3.3/src/reporting" />
+                  <option value="D:/Program Files/gradle-3.3/src/resources" />
+                  <option value="D:/Program Files/gradle-3.3/src/resources-http" />
+                  <option value="D:/Program Files/gradle-3.3/src/resources-s3" />
+                  <option value="D:/Program Files/gradle-3.3/src/resources-sftp" />
+                  <option value="D:/Program Files/gradle-3.3/src/scala" />
+                  <option value="D:/Program Files/gradle-3.3/src/signing" />
+                  <option value="D:/Program Files/gradle-3.3/src/test-kit" />
+                  <option value="D:/Program Files/gradle-3.3/src/testing-base" />
+                  <option value="D:/Program Files/gradle-3.3/src/testing-jvm" />
+                  <option value="D:/Program Files/gradle-3.3/src/testing-native" />
+                  <option value="D:/Program Files/gradle-3.3/src/tooling-api" />
+                  <option value="D:/Program Files/gradle-3.3/src/tooling-api-builders" />
+                  <option value="D:/Program Files/gradle-3.3/src/ui" />
+                  <option value="D:/Program Files/gradle-3.3/src/workers" />
+                  <option value="D:/Program Files/gradle-3.3/src/wrapper" />
+                  <option value="D:/Program Files/gradle-3.3/lib/ant-1.9.6.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/ant-launcher-1.9.6.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/gradle-base-services-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/gradle-base-services-groovy-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/gradle-cli-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/gradle-core-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/gradle-docs-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/gradle-installation-beacon-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/gradle-jvm-services-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/gradle-launcher-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/gradle-logging-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/gradle-messaging-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/gradle-model-core-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/gradle-model-groovy-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/gradle-native-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/gradle-open-api-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/gradle-process-services-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/gradle-resources-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/gradle-script-kotlin-0.5.1.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/gradle-tooling-api-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/gradle-ui-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/gradle-version-info-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/gradle-wrapper-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/groovy-all-2.4.7.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/plugins/gradle-announce-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/plugins/gradle-antlr-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/plugins/gradle-build-cache-http-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/plugins/gradle-build-comparison-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/plugins/gradle-build-init-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/plugins/gradle-code-quality-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/plugins/gradle-composite-builds-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/plugins/gradle-dependency-management-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/plugins/gradle-diagnostics-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/plugins/gradle-ear-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/plugins/gradle-ide-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/plugins/gradle-ide-native-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/plugins/gradle-ide-play-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/plugins/gradle-ivy-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/plugins/gradle-jacoco-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/plugins/gradle-javascript-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/plugins/gradle-jetty-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/plugins/gradle-language-groovy-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/plugins/gradle-language-java-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/plugins/gradle-language-jvm-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/plugins/gradle-language-native-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/plugins/gradle-language-scala-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/plugins/gradle-maven-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/plugins/gradle-osgi-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/plugins/gradle-platform-base-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/plugins/gradle-platform-jvm-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/plugins/gradle-platform-native-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/plugins/gradle-platform-play-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/plugins/gradle-plugin-development-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/plugins/gradle-plugin-use-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/plugins/gradle-plugins-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/plugins/gradle-publish-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/plugins/gradle-reporting-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/plugins/gradle-resources-http-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/plugins/gradle-resources-s3-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/plugins/gradle-resources-sftp-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/plugins/gradle-scala-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/plugins/gradle-signing-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/plugins/gradle-test-kit-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/plugins/gradle-testing-base-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/plugins/gradle-testing-jvm-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/plugins/gradle-testing-native-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/plugins/gradle-tooling-api-builders-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/plugins/gradle-workers-3.3.jar" />
+                  <option value="D:/Program Files/gradle-3.3/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
+                  <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
+                </list>
+              </option>
+            </ExternalProjectBuildClasspathPojo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/mqtt/demo/entity/JobAndTrigger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mqtt/demo/config/MyBatisConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/ModuleMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mqtt/demo/mapper/JobMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mqtt/demo/service/IJobService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mqtt/demo/controller/JobController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/JobMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/job.js" />
+        <option value="D:/Program Files/Java/jdk1.8.0_141/jre/lib/rt.jar!/java/awt/Color.class" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mqtt/demo/tools/VerifyCodeUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mqtt/demo/entity/CustomAuthenticationDetailsSource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mqtt/demo/config/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mqtt/demo/entity/CustomWebAuthenticationDetails.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mqtt/demo/controller/ImageController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mqtt/demo/service/CustomAuthenticationProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mqtt/demo/service/impl/JobImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/entity/JobWithCronTrigger.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/CollectorMapper.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/home.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/job.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/sidebar.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/geetest/sdk/java/web/demo/GeetestConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/geetest/sdk/java/web/demo/StartCaptchaServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/geetest/sdk/java/web/demo/StartCaptchaController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/geetest/sdk/java/GeetestLib.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/geetest/sdk/java/web/StartCaptchaController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/geetest/sdk/java/web/VerifyLoginServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/geetest/sdk/java/web/StartCaptchaController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/geetest/sdk/web/StartCaptchaController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/geetest/sdk/GeetestLib.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/entity/CustomWebAuthenticationDetails.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/entity/GeetestWebAuthenticationDetails.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/login.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/entity/GeetestAuthenticationDetailsSource.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/messages.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/messages_zh_CN.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/service/CustomUserDetailsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/service/CustomAuthenticationProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/login.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/entity/TextAuthenticationDetailsSource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/entity/TextWebAuthenticationDetails.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/config/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/controller/CaptchaController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/loginText.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/service/TextAuthenticationProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/controller/RouteController.java" />
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/controller/JobController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-7" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>CodeSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SpringJavaAutowiringInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages ProjectPane="false" />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Vue-seven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vue-seven" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Vue-seven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vue-seven" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Vue-seven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vue-seven" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Vue-seven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vue-seven" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Vue-seven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vue-seven" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Vue-seven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vue-seven" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Vue-seven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vue-seven" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Vue-seven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vue-seven" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Vue-seven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vue-seven" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Vue-seven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vue-seven" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path" value="D:/Program Files/nodejs/node" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.47870183" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\huaju\IdeaProjects\PlatformDebug\src\main\resources\templates" />
+      <recent name="C:\Users\huaju\IdeaProjects\PlatformDebug\src\main\resources\static\js\thirdparty" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.demo.service" />
+      <recent name="com.demo.entity" />
+      <recent name="com.demo.config" />
+      <recent name="com.mqtt.demo.mapper" />
+      <recent name="com.mqtt.demo.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\huaju\IdeaProjects\November\src\main\java\com\demo\config" />
+      <recent name="C:\Users\huaju\IdeaProjects\November\src\main\java\com\demo\entity" />
+      <recent name="C:\Users\huaju\IdeaProjects\November\src\main\resources\static\js" />
+      <recent name="C:\Users\huaju\IdeaProjects\November\src\main\resources\templates" />
+      <recent name="C:\Users\huaju\IdeaProjects\November\src\main\java\com\mqtt\demo\mapper" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+          <option name="enabled" value="false" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.Application" />
+      <option name="SHOW_IN_DASHBOARD" value="true" />
+      <module name="Vue-seven_main" />
+      <envs />
+    </configuration>
+    <configuration name="Vue-seven[bootRun]" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootRun" />
+          </list>
+        </option>
+        <option name="vmOptions" value="-Dfile.encoding=UTF-8" />
+      </ExternalSystemSettings>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="PlatformQuartz" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SHOW_IN_DASHBOARD" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Gradle.Vue-seven[bootRun]" />
+      <item index="1" class="java.lang.String" itemvalue="Spring Boot.Application" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Spring Boot.Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9947e6a7-9972-4afc-8aa5-ec5bb9bbadff" name="Default" comment="" />
+      <created>1501463022462</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1501463022462</updated>
+      <workItem from="1501463025853" duration="2017000" />
+      <workItem from="1501465293713" duration="10257000" />
+      <workItem from="1501481119144" duration="356000" />
+      <workItem from="1501481678227" duration="11387000" />
+      <workItem from="1501545711282" duration="4004000" />
+      <workItem from="1501549981095" duration="13491000" />
+      <workItem from="1501569797724" duration="3539000" />
+      <workItem from="1501573787563" duration="5990000" />
+      <workItem from="1501631829782" duration="14052000" />
+      <workItem from="1501653651271" duration="10728000" />
+      <workItem from="1501718478863" duration="8538000" />
+      <workItem from="1501734615475" duration="10205000" />
+      <workItem from="1501745723307" duration="6668000" />
+      <workItem from="1501805144221" duration="15562000" />
+      <workItem from="1502064253770" duration="1414000" />
+      <workItem from="1502082922450" duration="3127000" />
+      <workItem from="1502150300537" duration="773000" />
+      <workItem from="1502343246204" duration="8052000" />
+      <workItem from="1502428187352" duration="3858000" />
+      <workItem from="1502437264158" duration="138000" />
+      <workItem from="1502437535905" duration="3141000" />
+      <workItem from="1502668754147" duration="12689000" />
+      <workItem from="1502695782528" duration="7124000" />
+      <workItem from="1502754985949" duration="9675000" />
+      <workItem from="1502765358987" duration="1933000" />
+      <workItem from="1502776320085" duration="5552000" />
+      <workItem from="1502842277801" duration="845000" />
+      <workItem from="1502850850323" duration="2002000" />
+      <workItem from="1502853034534" duration="2580000" />
+      <workItem from="1502864059218" duration="8754000" />
+      <workItem from="1502928048032" duration="1129000" />
+      <workItem from="1502930316021" duration="23610000" />
+      <workItem from="1503013933380" duration="13749000" />
+      <workItem from="1503040345236" duration="2735000" />
+      <workItem from="1503274196010" duration="13566000" />
+      <workItem from="1503358781234" duration="7798000" />
+      <workItem from="1503446293708" duration="8632000" />
+      <workItem from="1503469760384" duration="3989000" />
+      <workItem from="1503533159897" duration="1628000" />
+      <workItem from="1503538628370" duration="18905000" />
+      <workItem from="1503619079675" duration="21920000" />
+      <workItem from="1503647391054" duration="5863000" />
+      <workItem from="1503878422125" duration="8049000" />
+      <workItem from="1503887124099" duration="2343000" />
+      <workItem from="1503895237029" duration="361000" />
+      <workItem from="1503896146548" duration="10213000" />
+      <workItem from="1503964675459" duration="5999000" />
+      <workItem from="1503972155812" duration="20665000" />
+      <workItem from="1504050651156" duration="1229000" />
+      <workItem from="1504054265434" duration="11274000" />
+      <workItem from="1504072185333" duration="177000" />
+      <workItem from="1504072622484" duration="6044000" />
+      <workItem from="1504136637188" duration="26431000" />
+      <workItem from="1504224106375" duration="543000" />
+      <workItem from="1504226071854" duration="5336000" />
+      <workItem from="1504233288693" duration="78000" />
+      <workItem from="1504250882881" duration="1713000" />
+      <workItem from="1504252698833" duration="5097000" />
+      <workItem from="1504355526828" duration="5025000" />
+      <workItem from="1504483904950" duration="15972000" />
+      <workItem from="1504569467033" duration="23862000" />
+      <workItem from="1504656679527" duration="12061000" />
+      <workItem from="1504679657634" duration="9272000" />
+      <workItem from="1504742300888" duration="18222000" />
+      <workItem from="1504836373706" duration="10724000" />
+      <workItem from="1504857456251" duration="1036000" />
+      <workItem from="1505093008951" duration="4060000" />
+      <workItem from="1505195562441" duration="2756000" />
+      <workItem from="1505262326584" duration="1876000" />
+      <workItem from="1505291100833" duration="1786000" />
+      <workItem from="1505293926486" duration="26000" />
+      <workItem from="1505347000197" duration="225000" />
+      <workItem from="1505366264448" duration="8774000" />
+      <workItem from="1505433504485" duration="1215000" />
+      <workItem from="1505443655735" duration="1952000" />
+      <workItem from="1505453727668" duration="8645000" />
+      <workItem from="1505692721457" duration="1867000" />
+      <workItem from="1505797468677" duration="1600000" />
+      <workItem from="1505898003079" duration="113000" />
+      <workItem from="1505961051839" duration="2026000" />
+      <workItem from="1506306851691" duration="895000" />
+      <workItem from="1506496762808" duration="1911000" />
+      <workItem from="1506559609920" duration="741000" />
+      <workItem from="1506565587894" duration="65000" />
+      <workItem from="1506662162766" duration="419000" />
+      <workItem from="1506666543523" duration="656000" />
+      <workItem from="1507507302167" duration="4770000" />
+      <workItem from="1507697508966" duration="916000" />
+      <workItem from="1507698687569" duration="1044000" />
+      <workItem from="1507699874182" duration="7410000" />
+      <workItem from="1507707823766" duration="378000" />
+      <workItem from="1507708356087" duration="938000" />
+      <workItem from="1507709362723" duration="4517000" />
+      <workItem from="1507766278151" duration="6311000" />
+      <workItem from="1507784414136" duration="54000" />
+      <workItem from="1508121609462" duration="33000" />
+      <workItem from="1509584676913" duration="480000" />
+      <workItem from="1509612464420" duration="582000" />
+      <workItem from="1509667261818" duration="12111000" />
+      <workItem from="1509697730766" duration="3452000" />
+      <workItem from="1509926413720" duration="11763000" />
+      <workItem from="1509950145688" duration="2719000" />
+      <workItem from="1509953720238" duration="3504000" />
+      <workItem from="1510015809530" duration="8737000" />
+      <workItem from="1510027495547" duration="12106000" />
+      <workItem from="1510099312008" duration="22071000" />
+      <workItem from="1510126841889" duration="2591000" />
+      <workItem from="1510185467471" duration="11912000" />
+      <workItem from="1510645229140" duration="568000" />
+      <workItem from="1510704586361" duration="32000" />
+      <workItem from="1510816840959" duration="12000" />
+      <workItem from="1510818607735" duration="1652000" />
+      <workItem from="1510880748926" duration="1616000" />
+      <workItem from="1510885073857" duration="675000" />
+      <workItem from="1510885985385" duration="627000" />
+    </task>
+    <task id="LOCAL-00001" summary="pick up word from pic captcha">
+      <created>1510204613754</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1510204613755</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="678890000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.432247" sideWeight="0.30030257" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4373928" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.432247" sideWeight="0.69969743" order="12" side_tool="false" content_ui="combo" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28816468" sideWeight="0.4941435" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27739727" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3827534" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28290468" sideWeight="0.4893048" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32761577" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23352855" sideWeight="0.51069516" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22813036" sideWeight="0.49707174" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2947702" sideWeight="0.5087848" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44520548" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10273973" sideWeight="0.49121523" order="12" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43150684" sideWeight="0.4941435" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23352855" sideWeight="0.51069516" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26928896" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27739727" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2282092" sideWeight="0.49707174" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09757943" sideWeight="0.4893048" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="pick up word from pic captcha" />
+    <option name="LAST_COMMIT_MESSAGE" value="pick up word from pic captcha" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/demo/service/TextAuthenticationProvider.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/demo/service/TextAuthenticationProvider.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/demo/controller/CaptchaController.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="62" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/sidebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/service/impl/JobImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/service/IJobService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/job.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="10" lean-forward="false" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/geetest/sdk/java/web/mobiledemo/VerifyLoginServlet.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html--" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/geetest/sdk/web/GeetestConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/controller/ImageController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/gt.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="237" column="32" lean-forward="false" selection-start-line="237" selection-start-column="22" selection-end-line="237" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/service/CustomAuthenticationProvider.java--">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-720">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/geetest/sdk/web/VerifyLoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="53" column="47" lean-forward="true" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/geetest/sdk/GeetestLib.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1419">
+          <caret line="89" column="18" lean-forward="false" selection-start-line="89" selection-start-column="18" selection-end-line="89" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/4.2.3.RELEASE/5c620ead93220cae89562bd3eda6ec875c43e1db/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/authentication/AuthenticationDetailsSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/entity/CustomAuthenticationDetailsSource.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/messages_zh_CN.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="51" column="46" lean-forward="true" selection-start-line="51" selection-start-column="46" selection-end-line="51" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/messages.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="50" column="38" lean-forward="true" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/4.2.3.RELEASE/5c620ead93220cae89562bd3eda6ec875c43e1db/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/core/userdetails/UserDetailsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-200">
+          <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/service/CustomUserDetailsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="40" column="71" lean-forward="true" selection-start-line="40" selection-start-column="71" selection-end-line="40" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/geetest/sdk/web/StartCaptchaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-127">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/4.2.3.RELEASE/5c620ead93220cae89562bd3eda6ec875c43e1db/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/authentication/ProviderManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="191" column="0" lean-forward="false" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-web/4.2.3.RELEASE/2804ac6a00705bed0836fe5826e0496ace681469/spring-security-web-4.2.3.RELEASE-sources.jar!/org/springframework/security/web/context/SecurityContextPersistenceFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/user.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.10.RELEASE/e350109ba4a031049863e3e9d9f3d386ef73cfd9/spring-web-4.3.10.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="213" column="0" lean-forward="false" selection-start-line="213" selection-start-column="0" selection-end-line="213" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login(Geetest).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_141/jre/lib/rt.jar!/java/awt/Graphics2D.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="68" column="25" lean-forward="false" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/entity/GeetestAuthenticationDetailsSource.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/entity/CustomWebAuthenticationDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-140">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/entity/GeetestAuthenticationDetailsSource.java--">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/entity/CustomAuthenticationDetailsSource.java--">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/entity/TextAuthenticationDetailsSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/service/CustomAuthenticationProvider.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/entity/GeetestWebAuthenticationDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/entity/TextWebAuthenticationDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.10.RELEASE/e350109ba4a031049863e3e9d9f3d386ef73cfd9/spring-web-4.3.10.RELEASE-sources.jar!/org/springframework/web/filter/OncePerRequestFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_141/jre/lib/rt.jar!/java/awt/Point.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-395">
+          <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_141/jre/lib/rt.jar!/java/util/Arrays.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="1392" column="30" lean-forward="false" selection-start-line="1392" selection-start-column="30" selection-end-line="1392" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_141/jre/lib/rt.jar!/java/awt/Graphics.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="41" column="11" lean-forward="false" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_141/jre/lib/rt.jar!/java/awt/Font.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8815">
+          <caret line="71" column="33" lean-forward="true" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/service/TextAuthenticationProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1220">
+          <caret line="76" column="5" lean-forward="true" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/loginText.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="39" column="96" lean-forward="false" selection-start-line="39" selection-start-column="96" selection-end-line="39" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/controller/CaptchaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1388">
+          <caret line="57" column="2" lean-forward="true" selection-start-line="57" selection-start-column="2" selection-end-line="57" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/config/QuartzConfig.java" />
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="30" lean-forward="false" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/controller/RouteController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="28" lean-forward="false" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/config/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="23" column="66" lean-forward="false" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/controller/JobController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="27" column="31" lean-forward="false" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="gradleExecuteTaskHistory">
+    <option value="" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.47870183" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.47870183" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>PlatformOct</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.47870183" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>Android API 26 Platform</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.47870183" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>November</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.47870183" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: org.quartz-scheduler:quartz:2.2.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.47870183" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
