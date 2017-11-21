@@ -26,5 +26,6 @@ public class ImageController {
 
         int width = 200, height = 80;
         VerifyCodeUtils.outputImage(width, height, response.getOutputStream(), verifyCode);
+
     }
 }

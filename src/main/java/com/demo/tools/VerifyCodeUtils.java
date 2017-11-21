@@ -110,7 +110,7 @@ public class VerifyCodeUtils {
         }
 
         g2.dispose();
-        ImageIO.write(image, "jpg", os);
+        ImageIO.write(image, "JPEG", os);
     }
 
     private static Color getRandColor(int fc, int bc) {

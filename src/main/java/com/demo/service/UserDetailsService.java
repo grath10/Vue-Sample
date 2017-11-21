@@ -3,6 +3,7 @@ package com.demo.service;
 import com.demo.entity.SysUser;
 import com.demo.mapper.SysUserMapper;
 import com.demo.mapper.UserRoleMapper;
+import com.demo.tools.CommonUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -39,5 +40,14 @@ public class UserDetailsService {
             }
         }
         return result;
+    }
+
+    public SysUser getUser(String username){
+        SysUser user = null;
+        List<SysUser> userList = sysUserMapper.select(username);
+        if(!CommonUtils.isEmpty(userList)){
+            user = userList.get(0);
+        }
+        return user;
     }
 }
